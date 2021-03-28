@@ -84,7 +84,7 @@ nav a {
   padding: 50px 100px;
 }
 
-#work {
+.work {
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
