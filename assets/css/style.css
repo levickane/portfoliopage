@@ -1,0 +1,188 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(11, 55, 128);
+  color: #b9c6ae;
+  padding: 20px;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 2em;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+#contactMe {
+  margin-top: 60px;
+}
+
+#contactMe li {
+  margin-top: 50px;
+  margin: 0px 10px;
+  font-size: large;
+  font-weight: 900;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a {
+  color: #b9c6ae;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#heroBanner {
+  position: relative;
+  text-align: center;
+}
+
+.hero {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.subtitle {
+  position: absolute;
+  color: white;
+  font-size: x-large;
+  background-color: rgba(0, 0, 0, 0.52);
+  bottom: 3px;
+  right: 0px;
+  padding: 10px;
+}
+
+.section {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+.sectionTitle {
+  border-right: 5px solid rgb(11, 55, 128);
+  font-size: xx-large;
+  max-width: 250px;
+  padding: 50px 100px;
+}
+
+#work {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  margin-left: 40px;
+}
+
+figure {
+  flex-wrap: wrap;
+  position: relative;
+  border: 5px solid black;
+  margin: 10px;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  background-color: rgba(112, 64, 64, 0.692);
+}
+
+.sectionContainer {
+  margin-left: 50px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  background-color: rgb(11, 55, 128);
+  color: #b9c6ae;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.image1 {
+  height: 600px;
+  width: 53vw;
+}
+.smallImage {
+  height: 100px;
+  width: 25.5vw;
+}
+
+@media screen and (max-width: 768px) {
+  header,
+  main,
+  .section {
+    flex-direction: column;
+  }
+  nav {
+    margin-top: 20px;
+  }
+  .section {
+    margin-left: 20px;
+    align-items: flex-start;
+  }
+  .sectionTitle {
+    border: none;
+    padding: 0px;
+  }
+  .sectionContainer {
+    margin-left: 0px;
+  }
+  .image1 {
+    height: 200px;
+    width: 300px;
+  }
+  .smallImage {
+    height: 200px;
+    width: 300px;
+  }
+
+  #contactMe ul {
+    min-width: 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    max-width: inherit;
+  }
+
+  #contactMe li {
+    margin-bottom: 30px;
+  }
+
+  p {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .image1 {
+    height: 200px;
+    width: 200px;
+  }
+  .smallImage {
+    height: 200px;
+    width: 200px;
+  }
+}
