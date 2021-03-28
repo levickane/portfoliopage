@@ -24,12 +24,16 @@ ul {
 }
 
 p {
-  margin: 10px 0px;
+  margin: 10px 20px 10px 0px;
 }
 
 #contactMe {
   margin-top: 60px;
 }
+/* #contactMe ul {
+  display: flex;
+  flex-direction: column;
+} */
 
 #contactMe li {
   margin-top: 50px;
@@ -101,18 +105,6 @@ figure {
 figure:hover img {
   opacity: 0.5;
 }
-
-/* figure something out here with the on click event */
-
-/* figure:target {
-  position: relative;
-  top: -25px;
-  left: -35px;
-  width: 500px;
-  height: auto;
-  display: block;
-  z-index: 999;
-} */
 
 figcaption {
   position: absolute;
