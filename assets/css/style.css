@@ -5,7 +5,11 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(11, 55, 128);
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(11, 55, 128),
+    rgb(66, 123, 214)
+  );
   color: #b9c6ae;
   padding: 20px;
   align-items: center;
@@ -48,7 +52,11 @@ figcaption {
   background-color: rgba(112, 64, 64, 0.692);
 }
 footer {
-  background-color: rgb(11, 55, 128);
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(11, 55, 128),
+    rgb(66, 123, 214)
+  );
   color: #b9c6ae;
   display: flex;
   justify-content: center;
@@ -89,7 +97,10 @@ footer {
   margin-top: 50px;
 }
 .sectionTitle {
-  border-right: 5px solid rgb(11, 55, 128);
+  /* border-style: solid; */
+  border-image: linear-gradient(to bottom, rgb(11, 55, 128), rgba(0, 0, 0, 0)) 1
+    100%;
+  border-right: 5px solid;
   font-size: xx-large;
   max-width: 250px;
   padding: 50px 100px;
