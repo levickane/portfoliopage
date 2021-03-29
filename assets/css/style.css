@@ -63,11 +63,7 @@ footer {
   padding: 20px;
 }
 
-#contactMe {
-  margin-top: 60px;
-}
 #contactMe li {
-  margin-top: 50px;
   margin: 0px 10px;
   font-size: large;
   font-weight: 900;
@@ -97,7 +93,6 @@ footer {
   margin-top: 50px;
 }
 .sectionTitle {
-  /* border-style: solid; */
   border-image: linear-gradient(to bottom, rgb(11, 55, 128), rgba(0, 0, 0, 0)) 1
     100%;
   border-right: 5px solid;
@@ -116,6 +111,7 @@ footer {
   margin-top: 10px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 .image1 {
