@@ -49,8 +49,12 @@ figcaption {
   position: absolute;
   bottom: 20px;
   left: 0;
-  background-color: rgba(112, 64, 64, 0.692);
+  background-color: rgba(0, 0, 0, 0.692);
   padding: 5px;
+  color: #b9c6ae;
+}
+figcaption p {
+  font-size: 0.75em;
 }
 footer {
   background-image: linear-gradient(
@@ -117,10 +121,12 @@ footer {
 .image1 {
   height: 600px;
   width: 53vw;
+  object-fit: cover;
 }
 .smallImage {
   height: 100px;
   width: 25.5vw;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {
