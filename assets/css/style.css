@@ -131,6 +131,13 @@ footer {
   width: 25.5vw;
   object-fit: cover;
 }
+.bioImage {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border: none;
+  margin: 20px 0px 0px -40px;
+}
 
 @media screen and (max-width: 768px) {
   header,
@@ -144,6 +151,7 @@ footer {
   p {
     margin-right: 20px;
   }
+
   .section {
     margin-left: 20px;
     align-items: flex-start;
@@ -151,6 +159,8 @@ footer {
   .sectionTitle {
     border: none;
     padding: 0px;
+    flex-direction: row;
+    max-width: none;
   }
   .sectionContainer {
     margin-left: 0px;
@@ -163,6 +173,9 @@ footer {
     height: 200px;
     width: 300px;
   }
+  .bioImage {
+    margin: 20px 0px 0px 30px;
+  }
 
   #contactMe ul {
     min-width: 300px;
@@ -172,11 +185,17 @@ footer {
     max-width: inherit;
   }
   #contactMe li {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+  .bioImage {
+    margin: 20px 0px 0px 60px;
+  }
+}
+
+@media screen and (max-width: 405px) {
   .image1 {
     height: 200px;
     width: 200px;
@@ -184,5 +203,13 @@ footer {
   .smallImage {
     height: 200px;
     width: 200px;
+  }
+}
+@media screen and (max-width: 320px) {
+  figure {
+    margin-left: 0px;
+  }
+  .bioImage {
+    margin: 20px 0px 0px 0px;
   }
 }
