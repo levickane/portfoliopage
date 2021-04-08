@@ -80,6 +80,9 @@ footer {
   position: relative;
   text-align: center;
 }
+#resume {
+  margin-bottom: 30px;
+}
 
 .hero {
   object-fit: cover;
