@@ -83,6 +83,10 @@ footer {
 #resume {
   margin-bottom: 30px;
 }
+#aboutMeText {
+  width: 80vw;
+  line-height: 20px;
+}
 
 .hero {
   object-fit: cover;
@@ -126,12 +130,12 @@ footer {
 }
 .image1 {
   height: 600px;
-  width: 53vw;
+  width: 75vw;
   object-fit: cover;
 }
 .smallImage {
-  height: 100px;
-  width: 25.5vw;
+  height: 200px;
+  width: 34.5vw;
   object-fit: cover;
 }
 .bioImage {
@@ -141,7 +145,42 @@ footer {
   border: none;
   margin: 20px 0px 0px -40px;
 }
-
+@media screen and (max-width: 1310px) {
+  .image1 {
+    height: 600px;
+    width: 65vw;
+    object-fit: cover;
+  }
+  .smallImage {
+    height: 150px;
+    width: 30.5vw;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 945px) {
+  .image1 {
+    height: 600px;
+    width: 53vw;
+    object-fit: cover;
+  }
+  .smallImage {
+    height: 100px;
+    width: 25.5vw;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 930px) {
+  #contactMe ul {
+    min-width: 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    max-width: inherit;
+  }
+  #contactMe li {
+    margin-bottom: 40px;
+  }
+}
 @media screen and (max-width: 768px) {
   header,
   main,
@@ -153,6 +192,9 @@ footer {
   }
   p {
     margin-right: 20px;
+  }
+  #aboutMeText {
+    width: 90vw;
   }
 
   .section {
@@ -178,17 +220,6 @@ footer {
   }
   .bioImage {
     margin: 20px 0px 0px 30px;
-  }
-
-  #contactMe ul {
-    min-width: 300px;
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
-    max-width: inherit;
-  }
-  #contactMe li {
-    margin-bottom: 40px;
   }
 }
 
